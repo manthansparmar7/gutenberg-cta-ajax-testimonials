@@ -1,0 +1,21 @@
+{
+  "name": "gutenberg-cta-ajax-testimonials",
+  "version": "1.0.0",
+  "description": "=== Plugin Name === Contributors: (this should be a list of wordpress.org userid's) Donate link: https://https://manthansparmar7.com/ Tags: comments, spam Requires at least: 3.0.1 Tested up to: 3.4 Stable tag: 4.3 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build blocks/call-to-action/index.js --output-path=blocks/call-to-action/build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/block-editor": "12.9.1"
+  },
+  "dependencies": {
+		"@wordpress/block-editor": "^12.22.0",
+		"@wordpress/components": "^27.2.0",
+		"@wordpress/element": "^5.31.0",
+		"@wordpress/i18n": "^4.54.0"
+  }
+}

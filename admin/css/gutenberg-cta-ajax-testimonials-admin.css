@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.approve-btn, .delete-btn {
+    cursor: pointer;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+}
+.approve-btn { background-color: green; }
+.delete-btn { background-color: red; }
+.green-text {
+    color: green !important;
+    font-weight: bold;
+}
+
+.orange-text {
+    color: orange !important;
+    font-weight: bold ;
+}
+
+#pagination { margin-top: 20px; }
+#pagination button { padding: 5px 10px; margin: 0 5px; }
+#ajax-loader { font-weight: bold; margin-top: 20px; }
